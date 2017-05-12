@@ -1,0 +1,104 @@
+[14-Mar-2017 07:03:32 Etc/GMT] PHP Notice:  Undefined variable: req in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 07:03:32 Etc/GMT] PHP Fatal error:  Call to a member function post() on a non-object in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 07:03:39 Etc/GMT] PHP Notice:  Undefined variable: req in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 07:03:39 Etc/GMT] PHP Fatal error:  Call to a member function post() on a non-object in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 07:05:09 Etc/GMT] PHP Notice:  Undefined variable: _PAYLOAD in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 07:05:11 Etc/GMT] PHP Notice:  Undefined variable: _PAYLOAD in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 07:05:50 Etc/GMT] PHP Notice:  Undefined variable: _HEAD in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 07:05:57 Etc/GMT] PHP Notice:  Undefined variable: _HEAD in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 07:09:43 Etc/GMT] PHP Notice:  Undefined variable: _HEADERS in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[14-Mar-2017 10:09:12 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 8
+[14-Mar-2017 10:10:30 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 8
+[14-Mar-2017 10:17:38 Etc/GMT] PHP Fatal error:  Class 'common\helpers\CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 4
+[14-Mar-2017 10:17:39 Etc/GMT] PHP Fatal error:  Class 'common\helpers\CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 4
+[14-Mar-2017 10:17:40 Etc/GMT] PHP Fatal error:  Class 'common\helpers\CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 4
+[14-Mar-2017 10:22:13 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 7
+[14-Mar-2017 10:22:30 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 7
+[14-Mar-2017 10:40:45 Etc/GMT] PHP Fatal error:  Call to undefined function mysl_query() in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 18
+[17-Mar-2017 12:15:56 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:15:56 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:17:50 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:17:50 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:29:18 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:29:18 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:30:02 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:30:02 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:30:34 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:30:34 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:31:05 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:31:05 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:31:20 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:31:20 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:31:59 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:31:59 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:33:23 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:33:23 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[17-Mar-2017 12:35:00 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 12
+[17-Mar-2017 12:35:00 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 12
+[18-Mar-2017 17:43:05 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 12
+[18-Mar-2017 17:43:05 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 12
+[18-Mar-2017 17:44:15 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 12
+[18-Mar-2017 17:44:15 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 12
+[18-Mar-2017 17:47:32 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:47:32 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:54:25 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:54:25 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:54:35 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:54:35 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:56:20 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:56:20 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:57:37 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 17:57:37 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 18:00:42 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 18:00:42 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 18:00:53 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 18:00:53 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 13
+[18-Mar-2017 18:02:51 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 15
+[18-Mar-2017 18:02:51 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 15
+[18-Mar-2017 18:02:59 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 15
+[18-Mar-2017 18:02:59 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 15
+[18-Mar-2017 18:10:00 Etc/GMT] PHP Notice:  Undefined variable: handle in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 16
+[18-Mar-2017 18:10:00 Etc/GMT] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 16
+[18-Mar-2017 18:20:24 Etc/GMT] PHP Fatal error:  Class 'common\helpers\CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 7
+[18-Mar-2017 18:21:04 Etc/GMT] PHP Fatal error:  Class 'common\helpers\CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 7
+[18-Mar-2017 18:21:18 Etc/GMT] PHP Fatal error:  Class 'common\helpers\CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 7
+[18-Mar-2017 18:22:21 Etc/GMT] PHP Warning:  include(common\helpers\CurlHelper.php): failed to open stream: No such file or directory in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:22:21 Etc/GMT] PHP Warning:  include(common\helpers\CurlHelper.php): failed to open stream: No such file or directory in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:22:21 Etc/GMT] PHP Warning:  include(): Failed opening 'common\helpers\CurlHelper.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:22:21 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 5
+[18-Mar-2017 18:23:23 Etc/GMT] PHP Warning:  include(common\helpers\CurlHelper.php): failed to open stream: No such file or directory in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:23:23 Etc/GMT] PHP Warning:  include(common\helpers\CurlHelper.php): failed to open stream: No such file or directory in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:23:23 Etc/GMT] PHP Warning:  include(): Failed opening 'common\helpers\CurlHelper.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:23:23 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 5
+[18-Mar-2017 18:24:24 Etc/GMT] PHP Warning:  include(common\helpers\CurlHelper.php): failed to open stream: No such file or directory in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:24:24 Etc/GMT] PHP Warning:  include(common\helpers\CurlHelper.php): failed to open stream: No such file or directory in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:24:24 Etc/GMT] PHP Warning:  include(): Failed opening 'common\helpers\CurlHelper.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:24:24 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 5
+[18-Mar-2017 18:26:05 Etc/GMT] PHP Warning:  include(common\helpers\CurlHelper.php): failed to open stream: No such file or directory in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:26:05 Etc/GMT] PHP Warning:  include(common\helpers\CurlHelper.php): failed to open stream: No such file or directory in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:26:05 Etc/GMT] PHP Warning:  include(): Failed opening 'common\helpers\CurlHelper.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:40:01 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 4
+[18-Mar-2017 18:40:51 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 2
+[18-Mar-2017 18:42:41 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[18-Mar-2017 18:42:51 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[18-Mar-2017 18:42:56 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[18-Mar-2017 18:44:26 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 4
+[18-Mar-2017 18:46:09 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 4
+[18-Mar-2017 18:48:21 Etc/GMT] PHP Fatal error:  Class 'CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 3
+[18-Mar-2017 18:51:38 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 8
+[18-Mar-2017 18:52:17 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 8
+[18-Mar-2017 18:56:49 Etc/GMT] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 5
+[18-Mar-2017 18:56:50 Etc/GMT] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 5
+[18-Mar-2017 18:58:11 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 6
+[18-Mar-2017 18:58:12 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 6
+[18-Mar-2017 18:58:24 Etc/GMT] PHP Notice:  Undefined offset: 2 in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 6
+[18-Mar-2017 18:58:25 Etc/GMT] PHP Notice:  Undefined offset: 2 in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 6
+[18-Mar-2017 18:58:25 Etc/GMT] PHP Notice:  Undefined offset: 2 in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 6
+[18-Mar-2017 19:10:28 Etc/GMT] PHP Fatal error:  Call to undefined function mysl_query() in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 12
+[18-Mar-2017 19:11:56 Etc/GMT] PHP Fatal error:  Call to undefined function mysl_query() in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 12
+[18-Mar-2017 19:14:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '$hook' (T_VARIABLE) in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 8
+[18-Mar-2017 19:14:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '$hook' (T_VARIABLE) in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 8
+[18-Mar-2017 19:16:05 Etc/GMT] PHP Parse error:  syntax error, unexpected 'mysql_connect' (T_STRING) in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 10
+[18-Mar-2017 19:22:10 Etc/GMT] PHP Fatal error:  Call to undefined function mysl_query() in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[18-Mar-2017 19:22:46 Etc/GMT] PHP Fatal error:  Call to undefined function mysl_query() in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11
+[18-Mar-2017 19:23:22 Etc/GMT] PHP Fatal error:  Call to undefined function mysl_query() in /home/uniqu2vo/public_html/webriderz.com/muuv/index.php on line 11

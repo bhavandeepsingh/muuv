@@ -1,0 +1,503 @@
+[14-Jan-2017 07:07:46 Etc/GMT] PHP Fatal error:  Call to undefined method common\helpers\Image::encode64() in /home/webridug/public_html/muuv/api/modules/v1/controllers/EventPostController.php on line 59
+[11-Mar-2017 10:08:13 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/CurlHelper.php on line 19
+[11-Mar-2017 10:11:32 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/CurlHelper.php on line 19
+[11-Mar-2017 10:13:54 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/CurlHelper.php on line 19
+[11-Mar-2017 10:14:46 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/CurlHelper.php on line 19
+[14-Mar-2017 08:36:12 Etc/GMT] An Error occurred while handling another error:
+exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php:1020
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php(313): yii\web\Response->prepare()
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/ErrorHandler.php(126): yii\web\Response->send()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#4 {main}
+Previous exception:
+exception 'yii\web\UnsupportedMediaTypeHttpException' with message 'None of your requested content types is supported.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php:208
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(157): yii\filters\ContentNegotiator->negotiateContentType(Object(yii\web\Request), Object(yii\web\Response))
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(145): yii\filters\ContentNegotiator->negotiate()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\ContentNegotiator->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/ApiController.php(38): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(152): app\modules\v1\controllers\ApiController->beforeAction(Object(yii\base\InlineAction))
+#9 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('eb-order', Array)
+#10 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('v1/event-post/e...', Array)
+#11 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+$_SERVER = [
+    'PHPRC' => '/home/uniqu2vo/public_html',
+    'PATH' => '/usr/bin:/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'HTTP_CONNECTION' => 'close',
+    'SCRIPT_NAME' => '/muuv/api/web/index.php',
+    'REQUEST_URI' => '/muuv/api/web/index.php?r=v1/event-post/eb-order&suppress_response_code=1',
+    'QUERY_STRING' => 'r=v1/event-post/eb-order&suppress_response_code=1',
+    'REQUEST_METHOD' => 'POST',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REMOTE_PORT' => '43311',
+    'SCRIPT_FILENAME' => '/home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php',
+    'SERVER_ADMIN' => 'webmaster@webriderz.uniquecoders.in',
+    'DOCUMENT_ROOT' => '/home/uniqu2vo/public_html/webriderz.com',
+    'REMOTE_ADDR' => '52.200.70.39',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '111.118.212.86',
+    'SERVER_NAME' => 'webriderz.uniquecoders.in',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_X_REAL_IP' => '52.200.70.39',
+    'CONTENT_LENGTH' => '290',
+    'HTTP_USER_ID_SENDER' => '197358559571',
+    'CONTENT_TYPE' => 'application/json',
+    'HTTP_X_EVENTBRITE_DELIVERY' => '345314',
+    'HTTP_X_EVENTBRITE_EVENT' => 'test',
+    'HTTP_USER_AGENT' => 'Eventbrite Hookshot 91008c8',
+    'HTTP_ACCEPT' => 'text/plain',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_HOST' => 'webriderz.uniquecoders.in',
+    'UNIQUE_ID' => 'WMerfG921FYACLLtZSwAAADJ',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/muuv/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1489480572.420733928680419921875,
+    'REQUEST_TIME' => 1489480572,
+]
+[14-Mar-2017 08:37:17 Etc/GMT] An Error occurred while handling another error:
+exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php:1020
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php(313): yii\web\Response->prepare()
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/ErrorHandler.php(126): yii\web\Response->send()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#4 {main}
+Previous exception:
+exception 'yii\web\UnsupportedMediaTypeHttpException' with message 'None of your requested content types is supported.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php:208
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(157): yii\filters\ContentNegotiator->negotiateContentType(Object(yii\web\Request), Object(yii\web\Response))
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(145): yii\filters\ContentNegotiator->negotiate()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\ContentNegotiator->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/ApiController.php(38): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(152): app\modules\v1\controllers\ApiController->beforeAction(Object(yii\base\InlineAction))
+#9 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('eb-order', Array)
+#10 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('v1/event-post/e...', Array)
+#11 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+$_SERVER = [
+    'PHPRC' => '/home/uniqu2vo/public_html',
+    'PATH' => '/usr/bin:/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'HTTP_CONNECTION' => 'close',
+    'SCRIPT_NAME' => '/muuv/api/web/index.php',
+    'REQUEST_URI' => '/muuv/api/web/index.php?r=v1/event-post/eb-order&suppress_response_code=1',
+    'QUERY_STRING' => 'r=v1/event-post/eb-order&suppress_response_code=1',
+    'REQUEST_METHOD' => 'POST',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REMOTE_PORT' => '44649',
+    'SCRIPT_FILENAME' => '/home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php',
+    'SERVER_ADMIN' => 'webmaster@webriderz.uniquecoders.in',
+    'DOCUMENT_ROOT' => '/home/uniqu2vo/public_html/webriderz.com',
+    'REMOTE_ADDR' => '52.200.70.39',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '111.118.212.86',
+    'SERVER_NAME' => 'webriderz.uniquecoders.in',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_X_REAL_IP' => '52.200.70.39',
+    'CONTENT_LENGTH' => '290',
+    'HTTP_USER_ID_SENDER' => '197358559571',
+    'CONTENT_TYPE' => 'application/json',
+    'HTTP_X_EVENTBRITE_DELIVERY' => '345314',
+    'HTTP_X_EVENTBRITE_EVENT' => 'test',
+    'HTTP_USER_AGENT' => 'Eventbrite Hookshot 91008c8',
+    'HTTP_ACCEPT' => 'text/plain',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_HOST' => 'webriderz.uniquecoders.in',
+    'UNIQUE_ID' => 'WMervW921FYACKdxO-gAAABE',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/muuv/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1489480637.2299048900604248046875,
+    'REQUEST_TIME' => 1489480637,
+]
+[14-Mar-2017 08:37:22 Etc/GMT] An Error occurred while handling another error:
+exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php:1020
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php(313): yii\web\Response->prepare()
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/ErrorHandler.php(126): yii\web\Response->send()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#4 {main}
+Previous exception:
+exception 'yii\web\UnsupportedMediaTypeHttpException' with message 'None of your requested content types is supported.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php:208
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(157): yii\filters\ContentNegotiator->negotiateContentType(Object(yii\web\Request), Object(yii\web\Response))
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(145): yii\filters\ContentNegotiator->negotiate()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\ContentNegotiator->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/ApiController.php(38): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(152): app\modules\v1\controllers\ApiController->beforeAction(Object(yii\base\InlineAction))
+#9 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('eb-order', Array)
+#10 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('v1/event-post/e...', Array)
+#11 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+$_SERVER = [
+    'PHPRC' => '/home/uniqu2vo/public_html',
+    'PATH' => '/usr/bin:/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'HTTP_CONNECTION' => 'close',
+    'SCRIPT_NAME' => '/muuv/api/web/index.php',
+    'REQUEST_URI' => '/muuv/api/web/index.php?r=v1/event-post/eb-order&suppress_response_code=1',
+    'QUERY_STRING' => 'r=v1/event-post/eb-order&suppress_response_code=1',
+    'REQUEST_METHOD' => 'POST',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REMOTE_PORT' => '44848',
+    'SCRIPT_FILENAME' => '/home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php',
+    'SERVER_ADMIN' => 'webmaster@webriderz.uniquecoders.in',
+    'DOCUMENT_ROOT' => '/home/uniqu2vo/public_html/webriderz.com',
+    'REMOTE_ADDR' => '52.200.70.39',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '111.118.212.86',
+    'SERVER_NAME' => 'webriderz.uniquecoders.in',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_X_REAL_IP' => '52.200.70.39',
+    'CONTENT_LENGTH' => '290',
+    'HTTP_USER_ID_SENDER' => '197358559571',
+    'CONTENT_TYPE' => 'application/json',
+    'HTTP_X_EVENTBRITE_DELIVERY' => '345314',
+    'HTTP_X_EVENTBRITE_EVENT' => 'test',
+    'HTTP_USER_AGENT' => 'Eventbrite Hookshot 91008c8',
+    'HTTP_ACCEPT' => 'text/plain',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_HOST' => 'webriderz.uniquecoders.in',
+    'UNIQUE_ID' => 'WMerwm921FYACKdyPLYAAAHX',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/muuv/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1489480642.6000339984893798828125,
+    'REQUEST_TIME' => 1489480642,
+]
+[14-Mar-2017 08:38:11 Etc/GMT] An Error occurred while handling another error:
+exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php:1020
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php(313): yii\web\Response->prepare()
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/ErrorHandler.php(126): yii\web\Response->send()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#4 {main}
+Previous exception:
+exception 'yii\web\UnsupportedMediaTypeHttpException' with message 'None of your requested content types is supported.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php:208
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(157): yii\filters\ContentNegotiator->negotiateContentType(Object(yii\web\Request), Object(yii\web\Response))
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(145): yii\filters\ContentNegotiator->negotiate()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\ContentNegotiator->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/ApiController.php(38): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(152): app\modules\v1\controllers\ApiController->beforeAction(Object(yii\base\InlineAction))
+#9 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('eb-order', Array)
+#10 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('v1/event-post/e...', Array)
+#11 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+$_SERVER = [
+    'PHPRC' => '/home/uniqu2vo/public_html',
+    'PATH' => '/usr/bin:/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'HTTP_CONNECTION' => 'close',
+    'SCRIPT_NAME' => '/muuv/api/web/index.php',
+    'REQUEST_URI' => '/muuv/api/web/index.php?r=v1/event-post/eb-order&suppress_response_code=1',
+    'QUERY_STRING' => 'r=v1/event-post/eb-order&suppress_response_code=1',
+    'REQUEST_METHOD' => 'POST',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REMOTE_PORT' => '46182',
+    'SCRIPT_FILENAME' => '/home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php',
+    'SERVER_ADMIN' => 'webmaster@webriderz.uniquecoders.in',
+    'DOCUMENT_ROOT' => '/home/uniqu2vo/public_html/webriderz.com',
+    'REMOTE_ADDR' => '52.201.4.8',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '111.118.212.86',
+    'SERVER_NAME' => 'webriderz.uniquecoders.in',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_X_REAL_IP' => '52.201.4.8',
+    'CONTENT_LENGTH' => '290',
+    'HTTP_USER_ID_SENDER' => '197358559571',
+    'CONTENT_TYPE' => 'application/json',
+    'HTTP_X_EVENTBRITE_DELIVERY' => '345314',
+    'HTTP_X_EVENTBRITE_EVENT' => 'test',
+    'HTTP_USER_AGENT' => 'Eventbrite Hookshot 91008c8',
+    'HTTP_ACCEPT' => 'text/plain',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_HOST' => 'webriderz.uniquecoders.in',
+    'UNIQUE_ID' => 'WMer82921FYACKdxPP0AAABI',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/muuv/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1489480691.583900928497314453125,
+    'REQUEST_TIME' => 1489480691,
+]
+[14-Mar-2017 08:40:00 Etc/GMT] An Error occurred while handling another error:
+exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php:1020
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php(313): yii\web\Response->prepare()
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/ErrorHandler.php(126): yii\web\Response->send()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#4 {main}
+Previous exception:
+exception 'yii\web\UnsupportedMediaTypeHttpException' with message 'None of your requested content types is supported.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php:208
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(157): yii\filters\ContentNegotiator->negotiateContentType(Object(yii\web\Request), Object(yii\web\Response))
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(145): yii\filters\ContentNegotiator->negotiate()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\ContentNegotiator->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/ApiController.php(38): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(152): app\modules\v1\controllers\ApiController->beforeAction(Object(yii\base\InlineAction))
+#9 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('eb-order', Array)
+#10 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('v1/event-post/e...', Array)
+#11 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+$_SERVER = [
+    'PHPRC' => '/home/uniqu2vo/public_html',
+    'PATH' => '/usr/bin:/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'HTTP_CONNECTION' => 'close',
+    'SCRIPT_NAME' => '/muuv/api/web/index.php',
+    'REQUEST_URI' => '/muuv/api/web/index.php?r=v1/event-post/eb-order&suppress_response_code=1',
+    'QUERY_STRING' => 'r=v1/event-post/eb-order&suppress_response_code=1',
+    'REQUEST_METHOD' => 'POST',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REMOTE_PORT' => '48928',
+    'SCRIPT_FILENAME' => '/home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php',
+    'SERVER_ADMIN' => 'webmaster@webriderz.uniquecoders.in',
+    'DOCUMENT_ROOT' => '/home/uniqu2vo/public_html/webriderz.com',
+    'REMOTE_ADDR' => '52.200.70.39',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '111.118.212.86',
+    'SERVER_NAME' => 'webriderz.uniquecoders.in',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_X_REAL_IP' => '52.200.70.39',
+    'CONTENT_LENGTH' => '290',
+    'HTTP_USER_ID_SENDER' => '197358559571',
+    'CONTENT_TYPE' => 'application/json',
+    'HTTP_X_EVENTBRITE_DELIVERY' => '345314',
+    'HTTP_X_EVENTBRITE_EVENT' => 'test',
+    'HTTP_USER_AGENT' => 'Eventbrite Hookshot 91008c8',
+    'HTTP_ACCEPT' => 'text/plain',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_HOST' => 'webriderz.uniquecoders.in',
+    'UNIQUE_ID' => 'WMesYG921FYACKdzPyIAAAGN',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/muuv/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1489480800.750051975250244140625,
+    'REQUEST_TIME' => 1489480800,
+]
+[14-Mar-2017 08:48:00 Etc/GMT] An Error occurred while handling another error:
+exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php:1020
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Response.php(313): yii\web\Response->prepare()
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/ErrorHandler.php(126): yii\web\Response->send()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\UnsupportedMediaTypeHttpException))
+#4 {main}
+Previous exception:
+exception 'yii\web\UnsupportedMediaTypeHttpException' with message 'None of your requested content types is supported.' in /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php:208
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(157): yii\filters\ContentNegotiator->negotiateContentType(Object(yii\web\Request), Object(yii\web\Response))
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/filters/ContentNegotiator.php(145): yii\filters\ContentNegotiator->negotiate()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\ContentNegotiator->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/ApiController.php(38): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(152): app\modules\v1\controllers\ApiController->beforeAction(Object(yii\base\InlineAction))
+#9 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('eb-order', Array)
+#10 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('v1/event-post/e...', Array)
+#11 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+$_SERVER = [
+    'PHPRC' => '/home/uniqu2vo/public_html',
+    'PATH' => '/usr/bin:/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'HTTP_CONNECTION' => 'close',
+    'SCRIPT_NAME' => '/muuv/api/web/index.php',
+    'REQUEST_URI' => '/muuv/api/web/index.php?r=v1/event-post/eb-order&suppress_response_code=1',
+    'QUERY_STRING' => 'r=v1/event-post/eb-order&suppress_response_code=1',
+    'REQUEST_METHOD' => 'POST',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REMOTE_PORT' => '33620',
+    'SCRIPT_FILENAME' => '/home/uniqu2vo/public_html/webriderz.com/muuv/api/web/index.php',
+    'SERVER_ADMIN' => 'webmaster@webriderz.uniquecoders.in',
+    'DOCUMENT_ROOT' => '/home/uniqu2vo/public_html/webriderz.com',
+    'REMOTE_ADDR' => '52.201.4.8',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '111.118.212.86',
+    'SERVER_NAME' => 'webriderz.uniquecoders.in',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_X_REAL_IP' => '52.201.4.8',
+    'CONTENT_LENGTH' => '290',
+    'HTTP_USER_ID_SENDER' => '197358559571',
+    'CONTENT_TYPE' => 'application/json',
+    'HTTP_X_EVENTBRITE_DELIVERY' => '345314',
+    'HTTP_X_EVENTBRITE_EVENT' => 'test',
+    'HTTP_USER_AGENT' => 'Eventbrite Hookshot 91008c8',
+    'HTTP_ACCEPT' => 'text/plain',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_HOST' => 'webriderz.uniquecoders.in',
+    'UNIQUE_ID' => 'WMeuQG921FYACRHAOBcAAACS',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/muuv/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1489481280.361125946044921875,
+    'REQUEST_TIME' => 1489481280,
+]
+[14-Mar-2017 11:25:36 Etc/GMT] PHP Fatal error:  Class 'app\modules\v1\controllers\CurlHelper' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php on line 38
+[14-Mar-2017 12:17:55 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 82
+[14-Mar-2017 12:18:40 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 82
+[14-Mar-2017 12:19:30 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 82
+[14-Mar-2017 12:20:49 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 12:21:42 Etc/GMT] PHP Parse error:  syntax error, unexpected '$eventmeta' (T_VARIABLE) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 85
+[14-Mar-2017 12:22:59 Etc/GMT] PHP Parse error:  syntax error, unexpected 'find' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 12:32:02 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::updateOrCreate() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 12:32:49 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::updateOrCreate() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 12:33:25 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::updateOrCreate() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 12:40:47 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 12:50:12 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 12:54:21 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 12:57:58 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 13:00:30 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 13:01:16 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 13:01:57 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[14-Mar-2017 13:04:01 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 09:48:54 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 09:53:30 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 09:53:53 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 09:57:27 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 10:00:28 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 10:00:37 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 10:00:41 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 10:02:28 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 10:03:17 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::where() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/Meta.php on line 84
+[15-Mar-2017 11:43:40 Etc/GMT] PHP Parse error:  syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE) in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php on line 54
+[15-Mar-2017 11:43:46 Etc/GMT] PHP Parse error:  syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE) in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php on line 54
+[15-Mar-2017 11:49:15 Etc/GMT] PHP Fatal error:  Call to undefined function app\modules\v1\controllers\updateTickets() in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php on line 50
+[15-Mar-2017 12:32:39 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php on line 65
+[16-Mar-2017 09:58:09 Etc/GMT] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 93
+[16-Mar-2017 10:27:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 90
+[16-Mar-2017 10:29:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 90
+[16-Mar-2017 10:29:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 90
+[16-Mar-2017 10:29:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 90
+[16-Mar-2017 10:29:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:29:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:29:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:29:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:29:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:29:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:29:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:30:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:34:22 Etc/GMT] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 90
+[16-Mar-2017 10:35:19 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 90
+[16-Mar-2017 10:35:22 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 90
+[16-Mar-2017 10:35:23 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 90
+[16-Mar-2017 10:36:10 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[16-Mar-2017 10:36:12 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[17-Mar-2017 05:31:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 69
+[17-Mar-2017 05:31:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 69
+[17-Mar-2017 05:45:22 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 64
+[17-Mar-2017 05:45:24 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 64
+[17-Mar-2017 05:45:50 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 64
+[17-Mar-2017 05:45:51 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 64
+[17-Mar-2017 05:45:52 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 64
+[17-Mar-2017 05:45:58 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 64
+[17-Mar-2017 06:53:46 Etc/GMT] PHP Fatal error:  Call to undefined function common\models\marge_array() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 88
+[17-Mar-2017 06:58:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 99
+[17-Mar-2017 06:58:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 99
+[17-Mar-2017 07:14:22 Etc/GMT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[17-Mar-2017 07:15:13 Etc/GMT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 101
+[17-Mar-2017 07:17:46 Etc/GMT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 101
+[17-Mar-2017 08:10:48 Etc/GMT] PHP Parse error:  syntax error, unexpected '!' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/TicketsPurchase.php on line 91
+[17-Mar-2017 08:34:39 Etc/GMT] PHP Fatal error:  Class 'common\model\EventMeta' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/EventBrite.php on line 113
+[17-Mar-2017 09:21:54 Etc/GMT] PHP Fatal error:  Class 'common\helpers\Self' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/EventBrite.php on line 114
+[17-Mar-2017 09:21:58 Etc/GMT] PHP Fatal error:  Class 'common\helpers\Self' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/EventBrite.php on line 114
+[17-Mar-2017 09:27:09 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/EventBrite.php on line 120
+[17-Mar-2017 09:27:13 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/EventBrite.php on line 120
+[17-Mar-2017 09:27:47 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/EventBrite.php on line 120
+[17-Mar-2017 09:27:51 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/EventBrite.php on line 120
+[17-Mar-2017 09:30:31 Etc/GMT] PHP Fatal error:  Class 'common\models\Ticket' not found in /home/uniqu2vo/public_html/webriderz.com/muuv/common/helpers/EventBrite.php on line 113
+[18-Mar-2017 19:34:00 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\EventMeta::findByPK() in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php on line 38
+[18-Mar-2017 19:42:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php on line 55
+[18-Mar-2017 19:43:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php on line 55
+[27-Mar-2017 09:01:12 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyRemuuv() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 22
+[27-Mar-2017 17:52:26 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyShare() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 25
+[27-Mar-2017 18:17:51 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyRemuuv() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 22
+[27-Mar-2017 18:18:04 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyRemuuv() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 22
+[29-Mar-2017 08:55:35 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyRemuuv() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 22
+[29-Mar-2017 10:17:30 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyShare() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 25
+[04-Apr-2017 15:46:14 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyRemuuv() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 22
+[04-Apr-2017 15:48:57 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyRemuuv() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 22
+[04-Apr-2017 15:49:13 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyRemuuv() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 22
+[04-Apr-2017 15:50:04 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyRemuuv() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 22
+[06-Apr-2017 17:55:04 Etc/GMT] PHP Fatal error:  Call to undefined method common\models\PushNotification::notifyShare() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/PushNotification.php on line 25
+[07-Apr-2017 14:31:49 Etc/GMT] PHP Fatal error:  Call to undefined function common\models\getQuery() in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/User.php on line 253
+[07-Apr-2017 14:55:03 Etc/GMT] PHP Warning:  Uncaught exception 'yii\base\ErrorException' with message 'Array to string conversion' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php:122
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php(122): yii\base\ErrorHandler->handleError(8, 'Array to string...', '/home/uniqu2vo/...', 122, Array)
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php(122): common\models\EventPost::getEventPost()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php(38): common\models\EventPost->getEventPost('11', 5, true)
+#3 [internal function]: app\modules\v1\controllers\EventPostController->actionGetPost('11')
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/uniqu2vo/publi in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php on line 122
+[07-Apr-2017 14:55:03 Etc/GMT] PHP Fatal error:  common\models\EventPost::getEventPost(): Failed opening required 'Array' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php on line 122
+[07-Apr-2017 14:55:13 Etc/GMT] PHP Warning:  Uncaught exception 'yii\base\ErrorException' with message 'Array to string conversion' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php:122
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php(122): yii\base\ErrorHandler->handleError(8, 'Array to string...', '/home/uniqu2vo/...', 122, Array)
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php(122): common\models\EventPost::getEventPost()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php(38): common\models\EventPost->getEventPost('11', 5, true)
+#3 [internal function]: app\modules\v1\controllers\EventPostController->actionGetPost('11')
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/uniqu2vo/publi in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php on line 122
+[07-Apr-2017 14:55:13 Etc/GMT] PHP Fatal error:  common\models\EventPost::getEventPost(): Failed opening required 'Array' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php on line 122
+[07-Apr-2017 14:56:03 Etc/GMT] PHP Warning:  Uncaught exception 'yii\base\ErrorException' with message 'Array to string conversion' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php:122
+Stack trace:
+#0 /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php(122): yii\base\ErrorHandler->handleError(8, 'Array to string...', '/home/uniqu2vo/...', 122, Array)
+#1 /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php(122): common\models\EventPost::getEventPost()
+#2 /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventPostController.php(38): common\models\EventPost->getEventPost('11', 5, true)
+#3 [internal function]: app\modules\v1\controllers\EventPostController->actionGetPost('11')
+#4 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/uniqu2vo/public_html/webriderz.com/muuv/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/uniqu2vo/publi in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php on line 122
+[07-Apr-2017 14:56:03 Etc/GMT] PHP Fatal error:  common\models\EventPost::getEventPost(): Failed opening required 'Array' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventPost.php on line 122
+[08-Apr-2017 08:53:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/uniqu2vo/public_html/webriderz.com/muuv/api/modules/v1/controllers/EventRequestController.php on line 32
+[08-Apr-2017 09:06:48 Etc/GMT] PHP Parse error:  syntax error, unexpected 'email' (T_STRING), expecting ']' in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventRequest.php on line 41

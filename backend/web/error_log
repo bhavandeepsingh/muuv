@@ -1,0 +1,3 @@
+[08-Apr-2017 09:21:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '[', expecting ']' in /home/uniqu2vo/public_html/webriderz.com/muuv/backend/views/event-request/index.php on line 44
+[08-Apr-2017 09:24:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '$REQUEST_TYPE_MUUV' (T_VARIABLE), expecting function (T_FUNCTION) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventRequest.php on line 26
+[08-Apr-2017 09:25:18 Etc/GMT] PHP Parse error:  syntax error, unexpected 'REQUEST_TYPE_MUUV' (T_STRING), expecting variable (T_VARIABLE) in /home/uniqu2vo/public_html/webriderz.com/muuv/common/models/EventRequest.php on line 26
